@@ -1,0 +1,42 @@
+.tweet__app
+{
+padding: 30px 0;
+max-width: 1100px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.tweet{
+    border: 2px solid black;
+    text-align: center;
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.usebtn{
+    animation: spark 2s infinite;
+    -webkit-animation: spark 2s infinite;
+}
+.usebtn:hover{
+    animation: none;
+    -webkit-animation: none;
+}
+@keyframes spark {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    }
+    70% {
+      -moz-box-shadow: 0 0 0 30px rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 30px rgba(204, 169, 44, 0);
+    }
+    100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+      box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+  }

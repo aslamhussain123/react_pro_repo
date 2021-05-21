@@ -1,0 +1,28 @@
+.services {
+  background-image: url(./images/img-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+color: #fff;
+font-size: 100px;
+}
+
+
+.products {
+  background-image: url(./images/img-3.jpg);
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact-us {
+  background-image: url(./images/img-4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
